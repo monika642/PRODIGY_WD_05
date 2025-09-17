@@ -1,0 +1,57 @@
+/* Background with gradient */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered card */
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  width: 320px;
+}
+
+/* Title */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Input and button */
+input {
+  padding: 10px;
+  width: 70%;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  background: #ff7eb3;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #ff4e91;
+}
+
+/* Result box */
+#weather-result {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
